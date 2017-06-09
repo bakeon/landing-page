@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>Horizontal Onepage Template</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="#">LOGO TA MERE</a></div>
+        <ul>
+            <li><a href="#slide-1" class="scroll">Slide 1</a></li>
+            <li><a href="#slide-2" class="scroll">Slide 2</a></li>
+            <li><a href="#slide-3" class="scroll">Slide 3</a></li>
+            <li><a href="#slide-4" class="scroll">Slide 4</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <article id="slide-1" class="slider" style="background-color:firebrick">
+            <div class="slider-container">
+                <figure class="slide">
+                    <img src="http://top-frog.com/stuff/slider/images/slider-test-image-1.gif">
+                </figure>
+                <figure class="slide">
+                    <img src="http://top-frog.com/stuff/slider/images/slider-test-image-2.gif">
+                </figure>
+                <div class="slider-control">
+                    <div class="control prev disabled">
+                        <div class="icon ion-chevron-left">
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="control next">
+                        <div class="icon ion-chevron-right">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="slide-2" class="geoloc" style="background-color:cornflowerblue">
+            <h2>Où suis-je ?</h2>
+
+        </article>
+        <article id="slide-3" class="google-connect" style="background-color: lightgreen">
+            <h2>Inscription Newsletter</h2>
+            <div class="form">
+                <h2>On attend plus que vous !</h2>
+                <p>Inscrivez-vous pour devenir un gros ouf.</p>
+                <form class="newsletter-form">
+                    <div class="input-box">
+                        <span id="return"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>
+                        <input class="mail-input" type="email" placeholder="Adresse e-mail" id="newsletter-mail" name="newsletter-mail"/>
+                        <span id="send-mail"><i class="fa fa-check" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="rs-box">
+                        <span class="rs-btn" id="google-btn"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                        <span class="rs-btn" id="mail-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    </div>
+        </article>
+        <article id="slide-4" class="bg-video" style="background-color:cornflowerblue">
+            <h2>Vidéo en BG</h2>
+            <div class="video-background">
+                <div class="video-foreground">
+                    <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+        <article id="slide-5" class="twitter-feed" style="background-color:cornflowerblue">
+            <h2>On parle de nous avec le #Test</h2>
+
+        </article>
+    </div>
+    <footer>
+        <p>C'est le footer avec le copyright.</p>
+    </footer>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script src="js/main.js"></script>
+</body>
