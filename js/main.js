@@ -3,13 +3,13 @@
 	 * Firebase initialization
      */
     let config = {
-			apiKey: "AIzaSyCtH-VSt5eB4DnFjvgjgg922vvWbREUQU4",
-			authDomain: "test-a19da.firebaseapp.com",
-			databaseURL: "https://test-a19da.firebaseio.com",
-			projectId: "test-a19da",
-			storageBucket: "test-a19da.appspot.com",
-			messagingSenderId: "875179177529"
-        };
+        apiKey: "AIzaSyD-GvA3P8duVu7xi1xCfHnKy8lRU3fowWA",
+        authDomain: "bakeon-landing.firebaseapp.com",
+        databaseURL: "https://bakeon-landing.firebaseio.com",
+        projectId: "bakeon-landing",
+        storageBucket: "bakeon-landing.appspot.com",
+        messagingSenderId: "260657155203"
+    };
 
     firebase.initializeApp(config);
 
